@@ -5,12 +5,14 @@
     <version>{version}</version>
     <authors>Strev.WebClient</authors>
     <owners>strev-org</owners>
+    <icon>images\Strev.WebClient-32.png</icon>
     <projectUrl>https://github.com/strev-org/Strev.WebClient</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/gissehel/Strev.WebClient/master/res/Strev.WebClient-32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A fluent API for WebRequests.{description_add}</description>
     <releaseNotes></releaseNotes>
     <copyright>MIT</copyright>
+    <license type="expression">MIT</license>
     <tags>Web API Fluent</tags>
     <dependencies>
         <group targetFramework="net35">
@@ -24,5 +26,6 @@
   <files>
     <file src="{package_path}\bin\Release\netstandard2.0\{package_name}.dll" target="lib\netstandard2.0\{package_name}.dll" />
     <file src="{package_path}\bin\Release\net35\{package_name}.dll" target="lib\net35\{package_name}.dll" />
+    <file src="{package_path}\res\Strev.WebClient-32.png" target="images\" />
   </files> 
 </package>
