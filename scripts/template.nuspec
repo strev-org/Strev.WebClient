@@ -26,6 +26,6 @@
   <files>
     <file src="{package_path}\bin\Release\netstandard2.0\{package_name}.dll" target="lib\netstandard2.0\{package_name}.dll" />
     <file src="{package_path}\bin\Release\net35\{package_name}.dll" target="lib\net35\{package_name}.dll" />
-    <file src="{package_path}\res\Strev.WebClient-32.png" target="images\" />
+    <file src="{package_path}\..\res\Strev.WebClient-32.png" target="images\" />
   </files> 
 </package>
